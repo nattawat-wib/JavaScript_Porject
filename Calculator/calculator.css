@@ -14,7 +14,7 @@ button {
 }
 
 .operator-btn > button {
-    background-color : rgba(211, 211, 211, 0.828) ;
+    background-color : lightgray ;
     max-width: 20%;
     padding: 10px;
     border-radius: 5px;
@@ -24,7 +24,7 @@ button {
 }
 
 .operator-btn > button:hover {
-    background-color : #ffffff ;
+    background-color : black ;
     color: white;
 }
 

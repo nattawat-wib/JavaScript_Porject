@@ -23,7 +23,6 @@
 
     <script>
         let sum = 0;
-        let resText = document.getElementById('result').innerHTML;
 
         function plu () {
             sum++;
@@ -33,13 +32,13 @@
         function min () {
             sum--;
             resText = sum;
-            document.getElementById('result').innerHTML
+            document.getElementById('result').innerHTML = sum;
         }
         
         function reset () {
             sum = 0 ;
             resText = sum;
-            document.getElementById('result').innerHTML
+            document.getElementById('result').innerHTML = sum;
         }
 
         if(sum == 10) {
