@@ -10,21 +10,22 @@
 }
 
 button {
-    text-align: ;
     margin: auto;
 }
 
 .operator-btn > button {
-    background-color : ;
+    background-color : rgba(211, 211, 211, 0.828) ;
     max-width: 20%;
     padding: 10px;
     border-radius: 5px;
     border: none;
     color: tomato;
-    
+    transition: background-color 0.5s ease, color 0.5s ease;
 }
 
 .operator-btn > button:hover {
-    background-color : black ;
+    background-color : #ffffff ;
     color: white;
 }
+
+

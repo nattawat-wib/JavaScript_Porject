@@ -10,16 +10,43 @@
 
 <body>
 
-
+    <h1 id="result"> 0 </h1>
 
     <main class="container">
 
         <div class="operator-btn">
-            <button id="increase"> + </button>
-            <button id="decrease"> - </button>
-            <button id="resetBut"> RESET </button>
+            <button id="increase" onclick="plu()"> + </button>
+            <button id="decrease" onclick="min()"> - </button>
+            <button id="resetBut" onclick="reset()"> RESET </button>
         </div>
     </main>
+
+    <script>
+        let sum = 0;
+        let resText = document.getElementById('result').innerHTML;
+
+        function plu () {
+            sum++;
+            document.getElementById('result').innerHTML = sum;
+        }
+        
+        function min () {
+            sum--;
+            resText = sum;
+            document.getElementById('result').innerHTML
+        }
+        
+        function reset () {
+            sum = 0 ;
+            resText = sum;
+            document.getElementById('result').innerHTML
+        }
+
+        if(sum == 10) {
+            document.getElementById('result').style.color = 'red';
+        }
+    </script>
+
 </body>
 
 </html>
