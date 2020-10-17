@@ -1,0 +1,30 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 750px;
+    margin: 50px auto;
+}
+
+button {
+    text-align: ;
+    margin: auto;
+}
+
+.operator-btn > button {
+    background-color : ;
+    max-width: 20%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: tomato;
+    
+}
+
+.operator-btn > button:hover {
+    background-color : black ;
+    color: white;
+}
