@@ -9,23 +9,38 @@
     margin: 50px auto;
 }
 
-button {
-    margin: auto;
-}
-
 .operator-btn > button {
-    background-color : lightgray ;
-    max-width: 20%;
-    padding: 10px;
-    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    background-color : #AED6F1  ;
+    padding: 15px;
+    border-radius: 7px;
     border: none;
-    color: tomato;
-    transition: background-color 0.5s ease, color 0.5s ease;
+    color: #707B7C ;
+    transition: background-color 0.5s ease, 
+                color 0.5s ease,
+                transform 0.5s ease;
+    font-size: 30px;
+    margin: 30px auto;
 }
 
 .operator-btn > button:hover {
-    background-color : black ;
-    color: white;
+    background-color : #5DADE2  ;
+    color: #E5E7E9  ;
 }
 
+.operator-btn > button:active {
+    transform: scale(1.05);
+}
 
+.operator-btn > button:focus {
+ 
+    border: none;
+  
+}
+
+#result {
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+}
