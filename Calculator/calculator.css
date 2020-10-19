@@ -9,8 +9,13 @@
     margin: 50px auto;
 }
 
+.operator-btn {
+    display: flex;
+    flex-flow: row wrap-reverse;
+    align-content: center;
+}
+
 .operator-btn > button {
-    display: block;
     background-color : #AED6F1  ;
     padding: 15px;
     border-radius: 7px;
@@ -44,7 +49,7 @@
     font-weight: bold;
 }
 
-/*awd*/
+/*!Calculator*/
 
 .warpper {
     max-width: 400px;

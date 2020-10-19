@@ -1,17 +1,17 @@
 let sum = 0;
 
-function plu () {
+function plu() {
     sum++;
     document.getElementById('result').innerHTML = sum;
 }
 
-function min () {
+function min() {
     sum--;
     resText = sum;
     document.getElementById('result').innerHTML = sum;
 }
 
-function reset () {
+function reset() {
     sum = 0 ;
     resText = sum;
     document.getElementById('result').innerHTML = sum;
@@ -122,7 +122,7 @@ operationButtons.forEach((button => {
         calculator.flushOperator(button.innerText);
         calculator.updateDisplay();
     });
-));
+});
 
 equalsButton.addEventListener('click', () => {
     calculator.compute();
